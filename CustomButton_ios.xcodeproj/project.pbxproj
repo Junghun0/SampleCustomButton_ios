@@ -13,6 +13,8 @@
 		3485D5322230FF5300650B80 /* CustomButton_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3485D5302230FF5300650B80 /* CustomButton_ios.xcdatamodeld */; };
 		3485D5342230FF5500650B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3485D5332230FF5500650B80 /* Assets.xcassets */; };
 		3485D5372230FF5500650B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3485D5352230FF5500650B80 /* LaunchScreen.storyboard */; };
+		3485D53F22320C6400650B80 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485D53E22320C6400650B80 /* ViewController2.swift */; };
+		3485D54122321FDD00650B80 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485D54022321FDD00650B80 /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3485D5332230FF5500650B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3485D5362230FF5500650B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3485D5382230FF5500650B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3485D53E22320C6400650B80 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3485D54022321FDD00650B80 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3485D5352230FF5500650B80 /* LaunchScreen.storyboard */,
 				3485D5382230FF5500650B80 /* Info.plist */,
 				3485D5302230FF5300650B80 /* CustomButton_ios.xcdatamodeld */,
+				3485D53E22320C6400650B80 /* ViewController2.swift */,
+				3485D54022321FDD00650B80 /* ReadViewController.swift */,
 			);
 			path = CustomButton_ios;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3485D52C2230FF5300650B80 /* ViewController.swift in Sources */,
+				3485D53F22320C6400650B80 /* ViewController2.swift in Sources */,
 				3485D52A2230FF5300650B80 /* AppDelegate.swift in Sources */,
 				3485D5322230FF5300650B80 /* CustomButton_ios.xcdatamodeld in Sources */,
+				3485D54122321FDD00650B80 /* ReadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

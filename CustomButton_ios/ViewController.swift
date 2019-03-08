@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //viewDidLoad 안에서 초기화를 해줘야 메모리사용을 줄일수있다.멤버변수로 선언하지 말 것!!
+        //뷰 컨트롤러가 화면에 처음 표시되는 시점에 인스턴스가 생성되기때문에
         
         //버튼 인스턴스를 생성하고, 속성설정
         let btn = UIButton(type: UIButton.ButtonType.system)
@@ -23,7 +25,6 @@ class ViewController: UIViewController {
         self.view.addSubview(btn)
         
         btn.addTarget(self, action: #selector(btnOnclick(_:)), for: .touchUpInside)
-        
     }
     
     @objc func btnOnclick(_ sender: Any){
